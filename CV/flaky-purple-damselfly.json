@@ -1,0 +1,423 @@
+{
+  "picture": {
+    "hidden": false,
+    "url": "",
+    "size": 80,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0.5)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Jan Andrzejewski",
+    "headline": "AI-first Developer / Student Automatyki i Robotyki — early adopter LLM, RAG, agentów",
+    "email": "janekandrz@gmail.com",
+    "phone": "",
+    "location": "Polska ",
+    "website": {
+      "url": "",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "",
+    "columns": 1,
+    "hidden": false,
+    "content": "<p><strong>Inżynier AI / Full-Stack Developer</strong> specjalizujący się w systemach agentycznych i architekturze systemów produkcyjnych. Łączę solidne fundamenty inżynierskie (Embedded, automatyka) z nowoczesnym stackiem webowym oraz doświadczeniem w budowaniu pipeline'ów RAG. Early adopter narzędzi AI-assisted development (od Copilota po Claude Code i Antigravity 2.0). <strong>W implementacjach kładę nacisk na świadome decyzje architektoniczne, optymalizację tokenów i wydajność infrastruktury, co pozwala na realne cięcie kosztów utrzymania systemów AI. </strong>Student Automatyki i Robotyki realizujący autorskie projekty produktowe end-to-end.</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019d0000-0000-7000-a000-000000000001",
+          "hidden": false,
+          "icon": "github-logo",
+          "iconColor": "",
+          "network": "GitHub",
+          "username": "",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          }
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000002",
+          "hidden": false,
+          "icon": "linkedin-logo",
+          "iconColor": "",
+          "network": "LinkedIn",
+          "username": "",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          }
+        }
+      ]
+    },
+    "experience": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019e4bac-2111-718e-8728-ad685e7e9f1b",
+          "hidden": false,
+          "company": "PSI Polska ",
+          "position": "",
+          "location": "",
+          "period": "",
+          "website": {
+            "url": "https://psi.pl",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "",
+          "roles": [
+            {
+              "id": "019e4bac-9140-7459-909e-5c325be1f877",
+              "position": "",
+              "period": "",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019d0000-0000-7000-a000-000000000010",
+          "hidden": false,
+          "school": "Studia inżynierskie — Automatyka i Robotyka",
+          "degree": "Inżynier (w trakcie)",
+          "area": "Automatyka i Robotyka",
+          "grade": "",
+          "location": "",
+          "period": "2023 — obecnie (6. semestr)",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        }
+      ]
+    },
+    "projects": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019d0000-0000-7000-a000-000000000020",
+          "hidden": false,
+          "name": "DocBase — RAG SaaS „drugi mózg” dla MŚP",
+          "period": "2026 — własny projekt produktowy ( 2-osobowy zespół)",
+          "website": {
+            "url": "https://docbase.pl",
+            "label": "",
+            "inlineLink": true
+          },
+          "description": "<p><strong>Problem:</strong> w polskich MŚP wiedza operacyjna jest rozproszona po mailach, PDF-ach, dokumentach i głowach kluczowych pracowników. Onboarding nowej osoby zajmuje tygodnie, a odejście doświadczonego pracownika to realne ryzyko ciągłości biznesu.</p><p><strong>Rozwiązanie:</strong> wielonajemcza platforma SaaS z pipeline'em RAG, która indeksuje firmowe dokumenty i odpowiada na pytania w języku naturalnym, podając link do źródła. Zaufanie buduje weryfikowalność odpowiedzi i ścisła izolacja danych każdej firmy na poziomie bazy.</p><p><strong>Wartość biznesowa:</strong> skrócenie onboardingu, oszczędność czasu na szukaniu procedur, zabezpieczenie wiedzy firmowej. Architektura przygotowana pod opcjonalny wariant on-premise dla klientów z restrykcyjnym RODO.</p><p><strong>Decyzje kosztowe/optymalizacje:</strong></p><ul><li><p>Routing modeli przez <strong>LiteLLM</strong> (tańszy model do prostych zapytań, mocniejszy do analiz), tani model embeddingowy, świadome cięcie tokenów.</p></li><li><p>Zastąpienie dedykowanej <strong>bazy wektorowej </strong>zoptymalizowaną tabelą<strong> PostgreSQL</strong>, redukując koszty infrastruktury o rzędy wielkości. Przeprowadziłem trade-off między natychmiastowym czasem odpowiedzi a kosztami RAM-u, dopasowując architekturę do faktycznych wymagań biznesowych</p></li></ul><p><strong>Stack:</strong> Python + <strong>FastAPI</strong>, <strong>LlamaIndex</strong>, <strong>Supabase</strong> (PostgreSQL + Auth + <strong>RLS</strong>), React + Vite + Tailwind, <strong>Docker</strong>, CI/CD na <strong>GitHub Actions</strong> z deployem landingu na <strong>AWS S3</strong>.</p>"
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000021",
+          "hidden": false,
+          "name": "Tracksy — operacyjne SaaS dla salonów beauty",
+          "period": "2026 — własny projekt produktowy ( 2-osobowy zespół)",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p><strong>Problem:</strong> właściciele i managerowie salonów beauty żyją w Booksy, ale platforma nie daje im operacyjnego wglądu w to, co realnie kosztuje pieniądze — puste sloty w grafiku, niewykorzystany czas pracowników, brak szybkich KPI w biegu między klientami.</p><p><strong>Rozwiązanie:</strong> nadbudowa nad Booksy łącząca dwa źródła danych — historyczny import raportów XLSX (backfill) oraz near real-time strumień rezerwacji, zmian i odwołań z przychodzących maili przez webhook. Panel zoptymalizowany pod mobile: KPI i alarmy operacyjne czytelne w kilka sekund.</p><p><strong>Wartość biznesowa:</strong> szybka reakcja na luki w grafiku przekłada się bezpośrednio na przychód, a osobne adresy e-mail per salon pozwalają obsłużyć wiele lokalizacji bez ingerencji w Booksy.</p><p><strong>Stack:</strong> <strong>Next.js</strong> + TypeScript, <strong>Supabase</strong> (Postgres + Auth + <strong>RLS</strong>), <strong>Supabase Edge Functions</strong> jako odbiornik webhooków, <strong>Playwright</strong> do scrapowania panelu Booksy, monorepo na <strong>Turborepo</strong>, deploy: Vercel + hosted Supabase.</p>"
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000022",
+          "hidden": false,
+          "name": "Stanowisko dydaktyczne Ball on Beam — sterowanie PID/LQR na STM32",
+          "period": "2026 — projekt zespołowy, 6. semestr",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p><strong>Problem:</strong> klasyczny niestabilny obiekt sterowania — kulka swobodnie tocząca się po pochyłej belce, którą trzeba utrzymać w zadanej pozycji wbrew dynamice układu. Idealna platforma do praktycznej weryfikacji teorii sterowania na realnym sprzęcie.</p><p><strong>Rozwiązanie:</strong> kompletny stos mechatroniczny zbudowany od zera w zespole — projekt mechaniczny, identyfikacja modelu obiektu, dwa równoległe regulatory (<strong>PID</strong> i <strong>LQR</strong>) z możliwością przełączania w locie oraz desktopowa aplikacja diagnostyczna z telemetrią i strojeniem nastaw w czasie rzeczywistym.</p><p><strong>Wartość inżynierska:</strong> porównanie klasycznego sterowania zwrotnego z optymalnym sterowaniem w przestrzeni stanów na tym samym obiekcie. Pełny przepływ: identyfikacja → projekt regulatora → implementacja na MCU → ewaluacja.</p><p><strong>Stack:</strong> <strong>STM32</strong> (C, HAL, <strong>FreeRTOS</strong>), regulatory <strong>PID</strong> i <strong>LQR</strong>, czujnik odległości ToF, serwo sterowane PWM, aplikacja desktopowa w <strong>PySide6</strong> + <strong>pyqtgraph</strong> + <strong>OpenCV</strong>, identyfikacja modelu w <strong>MATLAB/Simulink</strong>.</p>"
+        }
+      ]
+    },
+    "skills": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019d0000-0000-7000-a000-000000000030",
+          "hidden": false,
+          "icon": "code",
+          "iconColor": "",
+          "name": "Języki programowania",
+          "proficiency": "Zaawansowany",
+          "level": 0,
+          "keywords": [
+            "Python",
+            "TypeScript",
+            "C / C++",
+            "SQL",
+            "MATLAB"
+          ]
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000032",
+          "hidden": false,
+          "icon": "robot",
+          "iconColor": "",
+          "name": "AI / LLM",
+          "proficiency": "Zaawansowany — early adopter",
+          "level": 0,
+          "keywords": [
+            "RAG (LlamaIndex)",
+            "OpenAI API",
+            "Claude API",
+            "Embeddings + pgvector",
+            "Routing modeli (LiteLLM)",
+            "Claude Code / Cursor",
+            "MCP"
+          ]
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000031",
+          "hidden": false,
+          "icon": "browser",
+          "iconColor": "",
+          "name": "Full-stack web",
+          "proficiency": "Zaawansowany",
+          "level": 0,
+          "keywords": [
+            "Next.js",
+            "React",
+            "FastAPI",
+            "TailwindCSS",
+            "Turborepo",
+            "Playwright"
+          ]
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000033",
+          "hidden": false,
+          "icon": "database",
+          "iconColor": "",
+          "name": "Bazy danych & Cloud",
+          "proficiency": "Zaawansowany",
+          "level": 0,
+          "keywords": [
+            "PostgreSQL / Supabase",
+            "Row Level Security",
+            "Docker",
+            "GitHub Actions (CI/CD)",
+            "AWS S3",
+            "Vercel"
+          ]
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000035",
+          "hidden": false,
+          "icon": "cpu",
+          "iconColor": "",
+          "name": "Embedded & Automatyka",
+          "proficiency": "Zaawansowany",
+          "level": 0,
+          "keywords": [
+            "STM32 + FreeRTOS",
+            "Arduino",
+            "Regulatory PID / LQR",
+            "MATLAB / Simulink",
+            "OpenCV"
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019d0000-0000-7000-a000-000000000041",
+          "hidden": false,
+          "language": "Angielski",
+          "fluency": "Biegły w dokumentacji technicznej i kontakcie z międzynarodowymi klientami",
+          "level": 4
+        }
+      ]
+    },
+    "interests": {
+      "title": "",
+      "columns": 1,
+      "hidden": true,
+      "items": [
+        {
+          "id": "019d0000-0000-7000-a000-000000000050",
+          "hidden": false,
+          "icon": "gauge",
+          "iconColor": "",
+          "name": "Systemy sterowania",
+          "keywords": [
+            "regulatory PID/LQR",
+            "identyfikacja systemów",
+            "mechatronika"
+          ]
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000051",
+          "hidden": false,
+          "icon": "brain",
+          "iconColor": "",
+          "name": "AI, LLM i agenty",
+          "keywords": [
+            "early adopter",
+            "RAG",
+            "wektorowe bazy danych",
+            "agenty",
+            "AI-assisted coding",
+            "MCP"
+          ]
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000052",
+          "hidden": false,
+          "icon": "cpu",
+          "iconColor": "",
+          "name": "Embedded & low-level",
+          "keywords": [
+            "STM32",
+            "FreeRTOS",
+            "emulatory (CHIP-8)"
+          ]
+        },
+        {
+          "id": "019d0000-0000-7000-a000-000000000053",
+          "hidden": false,
+          "icon": "rocket",
+          "iconColor": "",
+          "name": "Budowa produktów SaaS",
+          "keywords": [
+            "full-stack",
+            "monorepo",
+            "DevOps"
+          ]
+        }
+      ]
+    },
+    "awards": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "publications": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "volunteer": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "references": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    }
+  },
+  "customSections": [],
+  "metadata": {
+    "template": "onyx",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "profiles",
+            "summary",
+            "experience",
+            "education",
+            "volunteer",
+            "references",
+            "projects",
+            "skills",
+            "certifications",
+            "awards",
+            "languages",
+            "interests",
+            "publications"
+          ],
+          "sidebar": []
+        }
+      ]
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 45,
+      "marginY": 20,
+      "format": "a4",
+      "locale": "pl-PL",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(21, 93, 252, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "400",
+          "500"
+        ],
+        "fontSize": 10,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 14,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": ""
+  }
+}
