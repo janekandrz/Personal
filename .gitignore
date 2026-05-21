@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# LaTeX compilation artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.dvi
+*.fdb_latexmk
+*.fls
+*.fmt
+*.fot
+*.glo
+*.gls
+*.glg
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lol
+*.lot
+*.nav
+*.out
+*.pdfsync
+*.ps
+*.pyg
+*.run.xml
+*.snm
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.toc
+*.vrb
+*.xdv
+*.xml
+*-blx.aux
+*-blx.bib
+
+# Beamer
+*.nav
+*.snm
+*.vrb
+
+# Auxiliary directories
+_minted-*/
+auto/
