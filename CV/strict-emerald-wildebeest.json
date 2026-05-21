@@ -13,7 +13,7 @@
   },
   "basics": {
     "name": "Jan Andrzejewski",
-    "headline": "AI-first Developer / Student Automatyki i Robotyki — early adopter LLM, RAG, agentów",
+    "headline": "AI-first Developer / Student Automatyki i Robotyki — early adopter LLM, RAG, agentic workflows",
     "email": "janekandrz@gmail.com",
     "phone": "",
     "location": "Polska ",
@@ -27,7 +27,7 @@
     "title": "",
     "columns": 1,
     "hidden": false,
-    "content": "<p><strong>Inżynier AI / Full-Stack Developer</strong> specjalizujący się w systemach agentycznych i architekturze systemów produkcyjnych. Łączę solidne fundamenty inżynierskie (Embedded, automatyka) z nowoczesnym stackiem webowym oraz doświadczeniem w budowaniu pipeline'ów RAG. Early adopter narzędzi AI-assisted development (od Copilota po Claude Code i Antigravity 2.0). <strong>W implementacjach kładę nacisk na świadome decyzje architektoniczne, optymalizację tokenów i wydajność infrastruktury, co pozwala na realne cięcie kosztów utrzymania systemów AI. </strong>Student Automatyki i Robotyki realizujący autorskie projekty produktowe end-to-end.</p>"
+    "content": "<p><strong>Inżynier AI / Full-Stack Developer</strong> specjalizujący się w systemach agentycznych i architekturze systemów produkcyjnych. Student Automatyki i Robotyki. Łączę solidne fundamenty inżynierskie (Embedded, automatyka) z nowoczesnym stackiem webowym oraz doświadczeniem w budowaniu pipeline'ów RAG. Early adopter narzędzi AI-assisted development (od pierwszych wersji GitHub Copilot po Claude Code, Codex i Antigravity 2.0). <strong>W implementacjach kładę nacisk na świadome decyzje architektoniczne, optymalizację tokenów i wydajność infrastruktury, co pozwala na realne obniżenie kosztów utrzymania systemów AI.</strong> Realizuję autorskie projekty produktowe end-to-end, od pierwszego commita do deploymentu.</p>"
   },
   "sections": {
     "profiles": {
@@ -71,16 +71,16 @@
         {
           "id": "019e4bac-2111-718e-8728-ad685e7e9f1b",
           "hidden": false,
-          "company": "PSI Polska ",
-          "position": "",
+          "company": "PSI Polska",
+          "position": "Junior IT Consultant – Tech & Analysis (Junior Consultant)",
           "location": "",
-          "period": "",
+          "period": "styczeń 2025 — obecnie",
           "website": {
             "url": "https://psi.pl",
             "label": "",
             "inlineLink": false
           },
-          "description": "",
+          "description": "<p><strong>Projekt:</strong> wdrożenie i kastomizacja systemu klasy WMS dla międzynarodowego klienta. Dostosowanie zaawansowanego systemu WMS pod specyfikację techniczną wynikającą z analizy procesów biznesowych. Praca w dużym zespole projektowym nad rozbudowanym, dojrzałym codebase.</p><p><strong>Development w Javie:</strong></p><ul><li><p>Implementacja poprawek i rozbudowa funkcjonalności systemu w języku Java w obrębie dużego, wielomodułowego codebase.</p></li><li><p>Praca w dużym zespole deweloperskim z zachowaniem dobrych praktyk inżynierii oprogramowania (Git, code review).</p></li></ul><p><strong>Analiza procesów biznesowych:</strong></p><ul><li><p>Zapewnianie jakości wdrażanych modułów systemu WMS pod kątem ich zgodności ze specyfikacją biznesową.</p></li><li><p>Analiza zmian w procesach biznesowych pod kątem implementacji i zgodności ze specyfikacją.</p></li></ul><p><strong>Analiza Techniczna (DevQA):</strong></p><ul><li><p>Diagnozowanie problemów systemowych poprzez analizę logów aplikacyjnych oraz bezpośrednie zapytania do bazy danych.</p></li></ul><p><strong>Współpraca z Klientem:</strong></p><ul><li><p>Utrzymywanie stałego, bezpośredniego kontaktu z klientem w fazie testów i wdrożenia, zarządzanie zgłoszeniami oraz doradztwo techniczne/procesowe.</p></li><li><p>Przygotowanie i samodzielne przeprowadzenie szkoleń techniczno-użytkowych dla klienta, ułatwiających adopcję nowego systemu WMS.</p></li></ul><p><strong>Tech stack:</strong> Java, SQL, Jira, WMS Architecture, Log Analysis, Git, Agile/Scrum.</p>",
           "roles": [
             {
               "id": "019e4bac-9140-7459-909e-5c325be1f877",
@@ -123,31 +123,31 @@
         {
           "id": "019d0000-0000-7000-a000-000000000020",
           "hidden": false,
-          "name": "DocBase — RAG SaaS „drugi mózg” dla MŚP",
-          "period": "2026 — własny projekt produktowy ( 2-osobowy zespół)",
+          "name": "DocBase — SaaS RAG pipline",
+          "period": "2026 — projekt produktowy (2-osobowy zespół)",
           "website": {
             "url": "https://docbase.pl",
             "label": "",
             "inlineLink": true
           },
-          "description": "<p><strong>Problem:</strong> w polskich MŚP wiedza operacyjna jest rozproszona po mailach, PDF-ach, dokumentach i głowach kluczowych pracowników. Onboarding nowej osoby zajmuje tygodnie, a odejście doświadczonego pracownika to realne ryzyko ciągłości biznesu.</p><p><strong>Rozwiązanie:</strong> wielonajemcza platforma SaaS z pipeline'em RAG, która indeksuje firmowe dokumenty i odpowiada na pytania w języku naturalnym, podając link do źródła. Zaufanie buduje weryfikowalność odpowiedzi i ścisła izolacja danych każdej firmy na poziomie bazy.</p><p><strong>Wartość biznesowa:</strong> skrócenie onboardingu, oszczędność czasu na szukaniu procedur, zabezpieczenie wiedzy firmowej. Architektura przygotowana pod opcjonalny wariant on-premise dla klientów z restrykcyjnym RODO.</p><p><strong>Decyzje kosztowe/optymalizacje:</strong></p><ul><li><p>Routing modeli przez <strong>LiteLLM</strong> (tańszy model do prostych zapytań, mocniejszy do analiz), tani model embeddingowy, świadome cięcie tokenów.</p></li><li><p>Zastąpienie dedykowanej <strong>bazy wektorowej </strong>zoptymalizowaną tabelą<strong> PostgreSQL</strong>, redukując koszty infrastruktury o rzędy wielkości. Przeprowadziłem trade-off między natychmiastowym czasem odpowiedzi a kosztami RAM-u, dopasowując architekturę do faktycznych wymagań biznesowych</p></li></ul><p><strong>Stack:</strong> Python + <strong>FastAPI</strong>, <strong>LlamaIndex</strong>, <strong>Supabase</strong> (PostgreSQL + Auth + <strong>RLS</strong>), React + Vite + Tailwind, <strong>Docker</strong>, CI/CD na <strong>GitHub Actions</strong> z deployem landingu na <strong>AWS S3</strong>.</p>"
+          "description": "<p><strong>Problem:</strong> w polskich MŚP wiedza operacyjna jest rozproszona po mailach, PDF-ach, dokumentach i głowach kluczowych pracowników. Onboarding nowej osoby jest czasochłonny, a odejście doświadczonego pracownika to realne ryzyko ciągłości biznesu.</p><p><strong>Rozwiązanie:</strong> platforma SaaS z pipeline'em RAG, która indeksuje firmowe dokumenty i odpowiada na pytania w języku naturalnym, podając link do źródła. Za każdym razem weryfikowalne odpowiedzi i ścisła izolacja danych każdej firmy na poziomie bazy.</p><p><strong>Wartość biznesowa:</strong> skrócenie onboardingu, oszczędność czasu na szukaniu procedur, zabezpieczenie wiedzy firmowej. Architektura od podstaw przygotowana pod opcjonalny wariant on-premise.</p><p><strong>Decyzje kosztowe/optymalizacje:</strong></p><ul><li><p>Routing modeli przez <strong>LiteLLM</strong> (tańszy model do prostych zapytań, mocniejszy do analiz), tani model embeddingowy, świadome cięcie tokenów.</p></li><li><p>Zastąpienie dedykowanej <strong>bazy wektorowej</strong> zoptymalizowaną tabelą <strong>PostgreSQL</strong>, redukując koszty infrastruktury o rzędy wielkości. Świadomy trade-off między natychmiastowym czasem odpowiedzi a kosztami RAM-u, dopasowujący architekturę do faktycznych wymagań biznesowych.</p></li></ul><p><strong>Stack:</strong> Python + <strong>FastAPI</strong>, <strong>LlamaIndex</strong>, <strong>Supabase</strong> (PostgreSQL + Auth + <strong>RLS</strong>), React + Vite + Tailwind, <strong>Docker</strong>, deployment na <strong>AWS</strong> z CI/CD przez <strong>GitHub Actions</strong>.</p>"
         },
         {
           "id": "019d0000-0000-7000-a000-000000000021",
           "hidden": false,
           "name": "Tracksy — operacyjne SaaS dla salonów beauty",
-          "period": "2026 — własny projekt produktowy ( 2-osobowy zespół)",
+          "period": "2026 — projekt produktowy (2-osobowy zespół)",
           "website": {
             "url": "",
             "label": "",
             "inlineLink": false
           },
-          "description": "<p><strong>Problem:</strong> właściciele i managerowie salonów beauty żyją w Booksy, ale platforma nie daje im operacyjnego wglądu w to, co realnie kosztuje pieniądze — puste sloty w grafiku, niewykorzystany czas pracowników, brak szybkich KPI w biegu między klientami.</p><p><strong>Rozwiązanie:</strong> nadbudowa nad Booksy łącząca dwa źródła danych — historyczny import raportów XLSX (backfill) oraz near real-time strumień rezerwacji, zmian i odwołań z przychodzących maili przez webhook. Panel zoptymalizowany pod mobile: KPI i alarmy operacyjne czytelne w kilka sekund.</p><p><strong>Wartość biznesowa:</strong> szybka reakcja na luki w grafiku przekłada się bezpośrednio na przychód, a osobne adresy e-mail per salon pozwalają obsłużyć wiele lokalizacji bez ingerencji w Booksy.</p><p><strong>Stack:</strong> <strong>Next.js</strong> + TypeScript, <strong>Supabase</strong> (Postgres + Auth + <strong>RLS</strong>), <strong>Supabase Edge Functions</strong> jako odbiornik webhooków, <strong>Playwright</strong> do scrapowania panelu Booksy, monorepo na <strong>Turborepo</strong>, deploy: Vercel + hosted Supabase.</p>"
+          "description": "<p><strong>Problem:</strong> właściciele i managerowie salonów beauty operują w Booksy, ale platforma nie daje im operacyjnego wglądu w to, jakie zasoby nie są w pełni zaangażowane — puste sloty w grafiku, niewykorzystany czas pracowników. Brak szybkich wskaźników KPI w codziennym biegu sprawia, że właściciele tracą szansę na maksymalizację przychodów.</p><p><strong>Rozwiązanie:</strong> nadbudowa nad Booksy czerpiąca near real-time strumień rezerwacji, zmian i odwołań z przychodzących powiadomień mailowych przez webhook. Panel zoptymalizowany pod aplikacje mobilne: KPI i alarmy operacyjne czytelne w kilka sekund.</p><p><strong>Wartość biznesowa:</strong> szybka reakcja na luki w grafiku przekłada się bezpośrednio na przychód, a osobne adresy e-mail per salon pozwalają obsłużyć wiele lokalizacji bez ingerencji w Booksy.</p><p><strong>Stack:</strong> <strong>Next.js</strong> + TypeScript, <strong>Turborepo, Supabase</strong> (Postgres + Auth + <strong>RLS</strong>), <strong>Supabase Edge Functions</strong> jako odbiornik webhooków email z <strong>Resend</strong>, <strong>Playwright</strong> do scrapowania panelu Booksy, deployment na Firebase + hosted Supabase.</p>"
         },
         {
           "id": "019d0000-0000-7000-a000-000000000022",
           "hidden": false,
-          "name": "Stanowisko dydaktyczne Ball on Beam — sterowanie PID/LQR na STM32",
+          "name": "Stanowisko dydaktyczne Ball on Beam — STM32",
           "period": "2026 — projekt zespołowy, 6. semestr",
           "website": {
             "url": "",
@@ -175,8 +175,7 @@
             "Python",
             "TypeScript",
             "C / C++",
-            "SQL",
-            "MATLAB"
+            "SQL"
           ]
         },
         {
@@ -188,13 +187,15 @@
           "proficiency": "Zaawansowany — early adopter",
           "level": 0,
           "keywords": [
-            "RAG (LlamaIndex)",
+            "Claude Code",
+            "Codex",
+            "Antigravity",
             "OpenAI API",
-            "Claude API",
-            "Embeddings + pgvector",
+            "Embeddings",
             "Routing modeli (LiteLLM)",
-            "Claude Code / Cursor",
-            "MCP"
+            "MCP",
+            "Context engineering",
+            "Knowladege vaults"
           ]
         },
         {
@@ -223,12 +224,13 @@
           "proficiency": "Zaawansowany",
           "level": 0,
           "keywords": [
-            "PostgreSQL / Supabase",
-            "Row Level Security",
-            "Docker",
+            "Git",
             "GitHub Actions (CI/CD)",
-            "AWS S3",
-            "Vercel"
+            "PostgreSQL / Supabase",
+            "AWS",
+            "Docker",
+            "Vercel",
+            "Firebase"
           ]
         },
         {
@@ -257,9 +259,9 @@
         {
           "id": "019d0000-0000-7000-a000-000000000041",
           "hidden": false,
-          "language": "Angielski",
+          "language": "Angielski C1",
           "fluency": "Biegły w dokumentacji technicznej i kontakcie z międzynarodowymi klientami",
-          "level": 4
+          "level": 0
         }
       ]
     },
